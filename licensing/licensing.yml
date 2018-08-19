@@ -1,0 +1,16 @@
+global.email: "yulikexuan@gmail.com"
+example.property: "I AM IN THE DEFAULT"
+management:
+  endpoint:
+    env:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+# Setting the logging levels for the service
+# By default, the root logger is associated with the console appender and have
+# the INFO level
+logging:
+  level:
+    org.springframework: INFO
