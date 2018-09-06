@@ -1,0 +1,5 @@
+example.organization.property: "I AM A DEFAULT PROPERTY"
+author.email: "likexuan@yahoo.com"
+logging:
+  level:
+    org.springframework: INFO

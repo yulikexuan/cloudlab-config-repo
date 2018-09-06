@@ -1,0 +1,4 @@
+example.organization.property: "I AM A PROD PROPERTY OVERRIDE"
+logging:
+  level:
+    org.springframework: WARN
